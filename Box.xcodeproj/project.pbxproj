@@ -14,6 +14,10 @@
 		4D3A28AB2900444A009B649F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3A28A92900444A009B649F /* LaunchScreen.storyboard */; };
 		4D3A28B429005B46009B649F /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A28B229005B46009B649F /* UserVC.swift */; };
 		4D3A28B529005B46009B649F /* UserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3A28B329005B46009B649F /* UserVC.xib */; };
+		4D8128092910EA5300AC0B3F /* NetMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8128082910EA5300AC0B3F /* NetMonitor.swift */; };
+		4D81280B2910F6C100AC0B3F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81280A2910F6C100AC0B3F /* Alert.swift */; };
+		4D81280D2910F73000AC0B3F /* Ext+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81280C2910F73000AC0B3F /* Ext+UIWindow.swift */; };
+		4D81280F2910F88A00AC0B3F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81280E2910F88A00AC0B3F /* TimerView.swift */; };
 		4DC2A92B2905142600AD2527 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2A92A2905142600AD2527 /* API.swift */; };
 		4DC2A92E29051DC300AD2527 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2A92C29051DC300AD2527 /* TableViewCell.swift */; };
 		4DC2A92F29051DC300AD2527 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DC2A92D29051DC300AD2527 /* TableViewCell.xib */; };
@@ -33,6 +37,10 @@
 		4D3A28AC2900444A009B649F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D3A28B229005B46009B649F /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
 		4D3A28B329005B46009B649F /* UserVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserVC.xib; sourceTree = "<group>"; };
+		4D8128082910EA5300AC0B3F /* NetMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetMonitor.swift; sourceTree = "<group>"; };
+		4D81280A2910F6C100AC0B3F /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4D81280C2910F73000AC0B3F /* Ext+UIWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+UIWindow.swift"; sourceTree = "<group>"; };
+		4D81280E2910F88A00AC0B3F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		4DC2A92A2905142600AD2527 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4DC2A92C29051DC300AD2527 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		4DC2A92D29051DC300AD2527 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
@@ -131,6 +139,10 @@
 				4DDEE1CA2901B569005DBE96 /* Network.swift */,
 				4DC2A92A2905142600AD2527 /* API.swift */,
 				4DC2A9302905339900AD2527 /* Box.swift */,
+				4D8128082910EA5300AC0B3F /* NetMonitor.swift */,
+				4D81280A2910F6C100AC0B3F /* Alert.swift */,
+				4D81280C2910F73000AC0B3F /* Ext+UIWindow.swift */,
+				4D81280E2910F88A00AC0B3F /* TimerView.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -279,10 +291,14 @@
 				4D3A28B429005B46009B649F /* UserVC.swift in Sources */,
 				4DDEE1CE2901BB65005DBE96 /* UserDM.swift in Sources */,
 				4D3A289F29004449009B649F /* AppDelegate.swift in Sources */,
+				4D81280D2910F73000AC0B3F /* Ext+UIWindow.swift in Sources */,
+				4D8128092910EA5300AC0B3F /* NetMonitor.swift in Sources */,
+				4D81280F2910F88A00AC0B3F /* TimerView.swift in Sources */,
 				4DDEE1CB2901B569005DBE96 /* Network.swift in Sources */,
 				4DC2A92B2905142600AD2527 /* API.swift in Sources */,
 				4DC2A9312905339900AD2527 /* Box.swift in Sources */,
 				4DC2A92E29051DC300AD2527 /* TableViewCell.swift in Sources */,
+				4D81280B2910F6C100AC0B3F /* Alert.swift in Sources */,
 				4DC2A935290535CA00AD2527 /* UserVM.swift in Sources */,
 				4D3A28A129004449009B649F /* SceneDelegate.swift in Sources */,
 			);

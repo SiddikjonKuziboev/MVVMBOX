@@ -19,6 +19,7 @@ class UserVC: UIViewController {
         setUpTableView()
         bindData()
         viewModel.getAllUser()
+        NetMonitor.shared.startMonitoring()
     }
     
     private func bindData() {
