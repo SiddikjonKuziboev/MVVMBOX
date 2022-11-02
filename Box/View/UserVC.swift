@@ -4,7 +4,6 @@
 //
 //  Created by Kuziboev Siddikjon on 10/19/22.
 //
-
 import UIKit
 
 class UserVC: UIViewController {
